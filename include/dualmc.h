@@ -242,9 +242,9 @@ bool DualMC<T>::DualPointKey::operator==(typename DualMC<T>::DualPointKey const 
     return linearizedCellID == other.linearizedCellID && pointCode == other.pointCode;
 }
 
-#include "dualmc.tpp"
+#include "dualmc.hpp"
 
-#include "dualmc_tables.tpp"
+#include "dualmc_tables.hpp"
 
 } // END: namespace dualmc
 #endif // DUALMC_H_INCLUDED
